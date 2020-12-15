@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/after-graduation/e-commerce_server/issues"
   },
-  "homepage": "/",
+  "homepage": "/https://github.com/after-graduation/e-commerce_server#readme",
   "dependencies": {
     "@code-fellows/supergoose": "^1.0.2",
     "base-64": "^0.1.0",
