@@ -2,8 +2,11 @@
 
 const mongoose = require('mongoose');
 const serverMod = require('./lib/server');
+socket = io.listen(process.env.PORT);
+
+
 serverMod.start(); 
-const MONGO_URL = 'mongodb://localhost:27017/ecommerce';
+const MONGO_URL = 'mongodb+srv://Hammad_95:0000@cluster0.3lcfu.mongodb.net/ecommerce?retryWrites=true&w=majority';
 const mongooseOptions = {
   useUnifiedTopology: true,
   useNewUrlParser: true,
